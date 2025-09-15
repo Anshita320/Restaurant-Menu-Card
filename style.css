@@ -1,0 +1,115 @@
+ body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: url('images2/bg-img.jpg') center/cover no-repeat;
+    }
+    header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px; 
+  padding: 20px;
+  background-color: #FFF2EF;
+}
+
+p{
+  text-align: center;
+}
+
+header .title {
+  text-align: center;
+}
+
+header .chef {
+  width: 150px;   
+  height: auto;
+}
+
+     
+    
+    header h1 {
+      margin: 0;
+      font-size: 5rem;
+      letter-spacing: 2px;
+      text-align: center;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    }
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.2rem;
+    }
+    .menu-section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+    .menu-section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2rem;
+      position: relative;
+      color: #fff;
+      padding: 12px;
+      border-radius: 8px;
+    }
+    /* Different section colors */
+    .starters h2 { background: #e67e22; }
+    .main-course h2 { background: #27ae60; }
+    .desserts h2 { background: #9b59b6; }
+    .beverages h2 { background: #3498db; }
+    .pizzas h2 { background: #c0392b; }
+    .salads h2 { background: #16a085; }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .menu-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .menu-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+    }
+    .menu-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .menu-card .content {
+      padding: 18px;
+    }
+    .menu-card h3 {
+      margin: 0 0 12px;
+      font-size: 1.2rem;
+      color: #e74c3c;
+    }
+    .menu-card table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    .menu-card table td {
+      padding: 6px 0;
+    }
+    .menu-card table td:last-child {
+      text-align: right;
+      font-weight: bold;
+      color: #27ae60;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+      margin-top: 40px;
+    }
+
+    
